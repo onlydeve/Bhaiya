@@ -1,0 +1,110 @@
+body{
+    background-color: #EAE3D7;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: blex;
+}
+
+@font-face {
+    font-family: blex;
+    src: url(fonts/BlexMonoNerdFont-Medium.ttf);
+  }
+
+@font-face {
+    font-family: space;
+    src: url(fonts/SpaceMonoNerdFontPropo-Bold.ttf);
+  }
+
+@font-face {
+    font-family: space-regular;
+    src: url(fonts/SpaceMonoNerdFontMono-Regular.ttf);
+}
+
+
+nav{
+    height: 50px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+nav img{
+    height: 90px;
+}
+
+#play-pause{
+    cursor: pointer;
+    transition: 0.3s;
+    transition-delay: 0.2s;
+}
+
+.hero{
+    margin: 30px;
+}
+
+.hero p{
+    font-size: 35px;
+    color: #585550;
+    font-family: space-regular;
+}
+
+.hero h1{
+    font-size: 50px;
+    line-height: 1px;
+    color: #4B4A46;
+    font-family: space;
+    text-decoration: underline;
+}
+
+.hero .para{
+    border-radius: 7px;
+    margin: 30px 0;
+    padding: 20px;
+    background-image: url(imgs/tiles.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #4B4A46;
+    /* box-shadow:#4B4A46; */
+    transition: 0.1s;
+    transition-delay: 0.2s;
+}
+
+.hero .para:hover{
+    box-shadow: 0px 10px#4B4A46;
+}
+
+#play-pause:hover{
+    transform: translate(-10px);
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+      background-color: lightblue;
+    }
+    nav img{
+        height: 60px;
+    }
+  }
+
+@media only screen and (max-width: 580px) {
+    body {
+      background-color: lightblue;
+    }
+    nav img{
+        height: 50px;
+    }
+    .hero p{
+        font-size: 20px;
+        color: #585550;
+        font-family: space-regular;
+    }
+    .hero h1{
+        font-size: 35px;
+        line-height: 1px;
+        color: #4B4A46;
+        font-family: space;
+        text-decoration: underline;
+    }
+  }
