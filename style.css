@@ -88,23 +88,47 @@ nav img{
     }
   }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 412px) {
     body {
-      background-color: lightblue;
+      background-color: rgb(221, 230, 173);
+    }
+
+    nav{
+        height: 20px;
+        margin: 15px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
     }
     nav img{
-        height: 50px;
+        height: 30px;
     }
     .hero p{
-        font-size: 20px;
+        font-size: 12px;
         color: #585550;
         font-family: space-regular;
     }
     .hero h1{
-        font-size: 35px;
+        font-size: 25px;
         line-height: 1px;
         color: #4B4A46;
         font-family: space;
         text-decoration: underline;
     }
+    .hero{
+        margin: 15px;
+    }
+    .hero .para{
+        border-radius: 7px;
+        margin: 15px 0;
+        padding: 15px;
+        background-image: url(imgs/tiles.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 1px solid #4B4A46;
+        /* box-shadow:#4B4A46; */
+        transition: 0.1s;
+        transition-delay: 0.2s;
+    }
+
   }
