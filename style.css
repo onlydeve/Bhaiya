@@ -8,12 +8,12 @@ body{
 
 @font-face {
     font-family: blex;
-    src: url(fonts/BlexMonoNerdFont-Medium.ttf);
+    src: url(fonts/BlexMonoNF-Medium.woff);
   }
 
 @font-face {
     font-family: space;
-    src: url(fonts/SpaceMonoNerdFontPropo-Bold.ttf);
+    src: url(fonts/SpaceMonoNFP-Bold.woff);
   }
 
 @font-face {
