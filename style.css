@@ -46,7 +46,7 @@ nav img{
 
 .hero p{
     font-size: 35px;
-    color: #585550;
+    color: #474542;
     font-family: blex;
 }
 
@@ -56,6 +56,7 @@ nav img{
     color: #4B4A46;
     font-family: space;
     text-decoration: underline;
+    padding-bottom: 15px;
 }
 
 .hero .para{
@@ -98,8 +99,7 @@ nav img{
         height: 33px;
     }
     .hero p{
-        font-size: 14px;
-        color: #585550;
+        font-size: 15px;
     }
     .hero h1{
         font-size: 23px;
@@ -112,5 +112,8 @@ nav img{
         margin: 15px 0;
         padding: 15px;
     }
-
+    .hero .para:hover{
+        box-shadow: 0px 3px#4B4A46;
+    }
+    
   }
