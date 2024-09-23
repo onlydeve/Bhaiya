@@ -103,6 +103,12 @@ nav img{
     }
     nav img{
         height: 33px;
+        -drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
     }
     .hero p{
         font-size: 15px;
