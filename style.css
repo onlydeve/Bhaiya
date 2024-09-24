@@ -45,6 +45,7 @@ nav{
     display: flex;
     justify-content: space-between;
     /* margin-bottom: 90px; */
+    z-index: 99;
 }
 
 nav img{
@@ -59,8 +60,8 @@ nav img{
 
 #play-pause{
     cursor: pointer;
-    transition: 0.3s;
-    transition-delay: 0.2s;
+    /* transition: 0.3s; */
+    /* transition-delay: 0.2s; */
 }
 
 .hero{
@@ -92,11 +93,12 @@ nav img{
     background-size: cover;
     border: 1px solid #4B4A46;
     /* box-shadow:#4B4A46; */
-    transition: 0.1s;
-    transition-delay: 0.2s;
+    /* transition: 0.1s; */
+    /* transition-delay: 0.2s; */
 }
 
 .hero .para:hover{
+    transition: 0.1s;
     box-shadow: 0px 10px#4B4A46;
 }
 
