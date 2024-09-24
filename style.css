@@ -5,6 +5,15 @@ body{
     padding: 0;
     font-family: blex;
 }
+::-moz-selection { /* Code for Firefox */
+    color: #EAE3D7;
+    background: #4B4A46;
+  }
+  
+  ::selection {
+    color: #EAE3D7;
+    background: #4B4A46;
+  }
 
 @font-face {
     font-family: blex;
