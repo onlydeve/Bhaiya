@@ -12,26 +12,14 @@ gsap.from("#logo", {
   delay: 0.5,
 });
 
-gsap.from(".first-para", {
-  opacity: 0,
-  y: -30,
-  duration: 0.3,
-  delay: 0.7,
-});
-
-gsap.from(".second-para", {
+gsap.from(".para", {
   opacity: 0,
   y: -30,
   duration: 0.3,
   delay: 0.8,
+  stagger:.2
 });
 
-gsap.from(".third-para", {
-  opacity: 0,
-  y: -30,
-  duration: 0.3,
-  delay: 0.9,
-});
 
 const play_pause = document.getElementById("play-pause");
 const audio = new Audio("audio/vipul.mp3");
