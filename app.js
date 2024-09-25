@@ -1,32 +1,9 @@
-gsap.from("#play-pause", {
-  opacity: 0,
-  y: -30,
-  duration: 0.3,
-  delay: 0.5,
-});
-
-gsap.from("#logo", {
-  opacity: 0,
-  y: -30,
-  duration: 0.3,
-  delay: 0.5,
-});
-
-gsap.from(".para", {
-  opacity: 0,
-  y: -30,
-  duration: 0.3,
-  delay: 0.8,
-  stagger:.2
-});
-
-
 const play_pause = document.getElementById("play-pause");
 const audio = new Audio("audio/vipul.mp3");
 
 let isFirstImage = true;
 
-play_pause.addEventListener("click", function () {
+play_pause.addEventListener("click", () => {
   if (isFirstImage) {
     play_pause.src = "imgs/Pause.png";
     audio.play();
