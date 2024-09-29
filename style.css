@@ -1,9 +1,9 @@
 body{
     background-color: #EAE3D7;
     overflow-x: hidden;
-    margin: 0;
     padding: 0;
     font-family: blex;
+    margin-inline:150px;
 }
 ::-moz-selection { /* Code for Firefox */
     color: #EAE3D7;
@@ -46,6 +46,7 @@ nav{
     justify-content: space-between;
     /* margin-bottom: 90px; */
     z-index: 99;
+    margin-inline: 150px;
 }
 
 nav img{
