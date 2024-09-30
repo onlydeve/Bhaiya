@@ -152,7 +152,7 @@ a svg{
 @media only screen and (max-width: 512px) {
 
     body{
-        margin-inline: 0px;
+        margin: 10px;
     }
     nav{
         background-color: #eae3d788;
@@ -164,6 +164,7 @@ a svg{
         left: 0;
         backdrop-filter: blur(6px);
         margin-inline: 0px;
+        padding: 25px;
         /* -webkit-filter: blur(8px); */
         /* margin: 15px; */
         display: flex;
@@ -171,7 +172,7 @@ a svg{
         /* margin-bottom: 30px; */
     }
     nav img{
-        height: 35px;
+        height: 38px;
         -drag: none;
         user-select: none;
         -moz-user-select: none;
@@ -180,15 +181,15 @@ a svg{
         -ms-user-select: none;
     }
     .hero .paragraph{
-        font-size: 15px;
+        font-size: 18px;
     }
     .hero .heading{
-        font-size: 23px;
+        font-size: 27px;
         line-height: 1px;
     }
     .hero{
         margin: 15px;
-        margin-top: 75px;
+        margin-top: 95px;
     }
     .hero .para{
         margin: 15px 0;
