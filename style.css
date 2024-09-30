@@ -181,15 +181,15 @@ a svg{
         -ms-user-select: none;
     }
     .hero .paragraph{
-        font-size: 18px;
+        font-size: 15px;
     }
     .hero .heading{
-        font-size: 27px;
+        font-size: 25px;
         line-height: 1px;
     }
     .hero{
         margin: 9px;
-        margin-top: 90px;
+        margin-top: 80px;
     }
     .hero .para{
         margin: 15px 0;
