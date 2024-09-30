@@ -164,7 +164,7 @@ a svg{
         left: 0;
         backdrop-filter: blur(6px);
         margin-inline: 0px;
-        padding: 25px;
+        padding: 18px;
         /* -webkit-filter: blur(8px); */
         /* margin: 15px; */
         display: flex;
@@ -172,7 +172,7 @@ a svg{
         /* margin-bottom: 30px; */
     }
     nav img{
-        height: 38px;
+        height: 35px;
         -drag: none;
         user-select: none;
         -moz-user-select: none;
@@ -188,8 +188,8 @@ a svg{
         line-height: 1px;
     }
     .hero{
-        margin: 15px;
-        margin-top: 95px;
+        margin: 9px;
+        margin-top: 90px;
     }
     .hero .para{
         margin: 15px 0;
