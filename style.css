@@ -171,7 +171,7 @@ a svg{
         /* margin-bottom: 30px; */
     }
     nav img{
-        height: 33px;
+        height: 35px;
         -drag: none;
         user-select: none;
         -moz-user-select: none;
@@ -188,7 +188,7 @@ a svg{
     }
     .hero{
         margin: 15px;
-        margin-top: 80px;
+        margin-top: 75px;
     }
     .hero .para{
         margin: 15px 0;
