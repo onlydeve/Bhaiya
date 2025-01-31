@@ -1,5 +1,5 @@
 const play_pause = document.getElementById("play-pause");
-const audio = new Audio("audio/vipul1.mp3");
+const audio = new Audio("audio/vipul.mp3");
 
 let isPlaying = false;
 
